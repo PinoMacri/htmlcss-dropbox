@@ -25,6 +25,9 @@ margin-bottom: 40px;
 h2 {
 font-size: 30px;
 }
+h3 {
+    font-size: 25px;
+}
 div , nav , section {
     border: 0.px dashed black;
 }
@@ -326,12 +329,10 @@ hr {
 .titleMultitaskingDrop {
     height: 90px;
     margin-top: 150px;
-    background-color: yellow;
 }
 .rowMultitasking {
-    height: 600px;
+    height: 550px;
     gap: 40px;
-    margin: 40px 0px;
 }
 .colMultitasking {
     width: calc(100% / 3);
@@ -340,15 +341,33 @@ hr {
     flex-direction: column;
     height: 100%;
 }
-.imgCardMultitasking,.textCardMultitasking {
-    height: 50%;
-    background-color: violet;
+.imgCardMultitasking {
+    height: 40%;
+    margin-bottom: 10px;
 }
+.imgCardMultitasking img {
+    width: 100%;
+    }
+.textCardMultitasking {
+    height: 60%;
+}
+.textCardMultitasking h3 {
+    width: 100%;
+    margin-bottom: 30px ;
+    margin-top: 20px;
+}
+
 /*SEARCH-DROP*/
 .searchDrop {
+    max-width: 500px;
     height: 200px;
     margin-top: 100px;
-    background-color: aqua;
+}
+.searchDrop h2 {
+    margin-bottom: 90px;
+}
+.searchDrop a {
+    color: blue;
 }
 
 /*------------------------------------ASIDE----------------------------------------*/
