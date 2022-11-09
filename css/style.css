@@ -23,12 +23,8 @@ font-size: 80px;
 margin-bottom: 40px;
 }
 h2 {
-
+font-size: 30px;
 }
-h3 {
-
-}
-
 div , nav , section {
     border: 0.5px dashed black;
 }
@@ -42,11 +38,23 @@ div , nav , section {
 .right-flex {
     justify-content: flex-end;
 }
+/*BORDER-CIRCLE*/
+.borderBlue {
+    border: 6px solid #0061FF
+}
+.borderNormal {
+    border: 2px solid gray
+}
 /*BUTTON-A*/
 .btnType {
-padding: 5px 15px;
-font-size: 19px;
-text-decoration: none;
+    font-size: 19px;
+    text-decoration: none;
+}
+.btnPadSmall {
+    padding: 5px 15px;
+}
+.btnPadBig {
+    padding: 5px 27.9px;
 }
 .bck-clr {
     background-color: #0061FF ;
@@ -80,6 +88,10 @@ text-decoration: none;
 .LightBlue {
     background-color: #B4D0E7 ;
 }
+/*COLOR*/
+.gray {
+    color: rgb(165, 165, 165);
+}
 
 /*------------------------------------NAVBAR---------------------------------------*/
 
@@ -88,6 +100,9 @@ text-decoration: none;
     display: flex;
     justify-content: space-between;
     height: 100px;
+    position: sticky ;
+    top: 0;
+    background-color: white;
 }
 .navbar.flex {
     min-width: 30%;
@@ -127,9 +142,9 @@ header {
     height: 400px;
 }
 .headerText.flex {
-width: 30%;
-flex-direction: column;
-justify-content: space-between;
+    width: 28%;
+    flex-direction: column;
+    justify-content: space-between;
 }
 div i {
     font-size: 50px;
@@ -138,7 +153,7 @@ div i {
 }
 /*HEADER-IMG*/
 .divHeaderImg {
-width: 70%;
+    width: 72%;
 }
 .divHeaderImg img {
     width: 85% ;
@@ -147,34 +162,110 @@ width: 70%;
 
 /*-------------------------------------MAIN----------------------------------------*/
 
-/*BUSINESS*/
-main {
-    background-color: 
-}
+/*BUSINESS-CHECKBOX*/
 .containerMain {
     max-width: 1200px;
     margin: 0 auto ;
 }
-.titlesMain {
-    height: 100px ;
-    margin-top: 100px;
-    background-color: yellow;
+.titlesMain.flex {
+    height: 120px ;
+    margin-top: 150px;
+    flex-direction: column;
+    justify-content: space-between;
 }
+.circle {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.checkBoxMain {
+    gap: 0px;
+    align-items: flex-end;
+}
+.billing {
+    margin-right: 30px;
+    margin-left: 5px ;
+}
+/*BUSINESS-CARD*/
 .cardMainContainer.flex {
-    height: 700px;
+    height: 1000px;
     gap: 40px;
     margin-top: 40px;
     margin-bottom: 40px;
 }
 .cardMainContainer .sectCard {
     width: calc(100% / 3);
-    background-color: red;
 }
 .titleCard {
     width: 100%;
     height: 50px;
     background-color: darkred;
+    text-align: center;
+    line-height: 50px;
 }
+.sectCard {
+    height: 1000px;
+}
+.sectCard i {
+    font-size: 17px;
+}
+.contentCard {
+   max-width: 280px;
+   margin: 20px auto;
+   height: 900px;
+}
+.contentCard h3 {
+    margin-bottom: 15px;
+}
+.contentCard p {
+    margin-bottom: 15px;
+}
+.contentCard p a {
+    margin-top: 15px;
+    color: blue;
+}
+.shoppingP {
+    margin-top: 40px;
+}
+hr {
+    width: 50px;
+    margin-top: 40px;
+    border: 1px solid gray ;
+}
+.listCard {
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+.listCard li {
+    margin-top: 15px;
+}
+.listLI {
+    margin-top: 30px;
+}
+
+
+.listUser {
+    list-style-image: url('../img/user-solid\ \(2\).svg') ;
+}
+.listUserTeam {
+    list-style-image: url('../img/users-solid\ \(1\).svg');
+}
+.listFolder {
+    list-style-image: url('../img/folder-solid\ \(3\).svg');
+}
+.listShare {
+    list-style-image: url('../img/share-nodes-solid\ \(3\)\ \(1\).svg');
+}
+.contentCard h4 {
+    margin-top: 40px;
+}
+.listCheck {
+    list-style-image: url('../img/check-solid\ \(1\).svg');
+}
+
+
+
 /*ENTERPRISE*/
 .teamEnterprise {
     height: 200px;
@@ -222,7 +313,6 @@ background-color: yellow;
 }
 .colMultitasking {
     width: calc(100% / 3);
-   
 }
 .cardMultitasking {
     flex-direction: column;
@@ -290,7 +380,6 @@ aside {
 }
 .divRequests {
     height: 100px;
-    border-bottom: ;
     background-color: violet;
 }
 
