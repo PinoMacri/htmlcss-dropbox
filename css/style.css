@@ -34,8 +34,6 @@ div , nav , section {
 
 /*------------------------------------UTILITIES------------------------------------*/
 
-/*UTILITIES*/
-
 /*BUTTON*/
 .btnType {
 
@@ -78,9 +76,10 @@ div , nav , section {
 .LightBlue {
     background-color: #B4D0E7 ;
 }
+
 /*------------------------------------NAVBAR---------------------------------------*/
 
-/*NAVBAR*/
+/*NAV*/
 .containerNav {
     display: flex;
     justify-content: space-between;
@@ -122,8 +121,7 @@ width: 70%;
 
 /*-------------------------------------MAIN----------------------------------------*/
 
-/*MAIN*/
-
+/*BUSINESS*/
 main {
     background-color: 
 }
@@ -151,6 +149,7 @@ main {
     height: 50px;
     background-color: darkred;
 }
+/*ENTERPRISE*/
 .teamEnterprise {
     height: 200px;
 }
@@ -171,6 +170,7 @@ background-color: yellow;
     height: 100%;
     background-color: pink;
 }
+/*DROPBOX BUSINESS*/
 .contactDropbox {
     height: 400px;
     margin-top: 130px;
@@ -183,6 +183,7 @@ background-color: yellow;
     width: 40%;
     background-color: beige;
 }
+/*MULTITASKING*/
 .titleMultitaskingDrop {
     height: 90px;
     margin-top: 150px;
@@ -205,6 +206,7 @@ background-color: yellow;
     height: 50%;
     background-color: violet;
 }
+/*SEARCH-DROP*/
 .searchDrop {
     height: 200px;
     margin-top: 100px;
@@ -213,8 +215,7 @@ background-color: yellow;
 
 /*------------------------------------ASIDE----------------------------------------*/
 
-/*ASIDE*/
-
+/*PARTNER*/
 aside {
     height: 1500px;
     margin-bottom: 80px;
@@ -223,6 +224,7 @@ aside {
     margin-top: 100px;
     height: 500px;
 }
+/*LOGHI PARTNER*/
 .rowPartner {
     height: 100%;
 }
@@ -240,6 +242,7 @@ aside {
 .imgCardPartner {
     width: 50%;
 }
+/*FREE-TRIAL*/
 .freeTrial {
     height: 300px;
 }
@@ -249,7 +252,7 @@ aside {
 .buttonFreeTrial {
     width: 45%;
 }
-
+/*REQUESTS*/
 .containerRequests {
     max-width: 1200px;
     margin: 120px auto ;
@@ -268,7 +271,6 @@ aside {
 /*------------------------------------FOOTER---------------------------------------*/
 
 /*FOOTER*/
-
 footer {
     background-color: gray;
 }
