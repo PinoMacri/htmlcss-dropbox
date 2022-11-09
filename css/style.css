@@ -211,6 +211,10 @@ background-color: yellow;
     background-color: aqua;
 }
 
+/*------------------------------------ASIDE----------------------------------------*/
+
+/*ASIDE*/
+
 aside {
     height: 1500px;
     margin-bottom: 80px;
@@ -260,6 +264,10 @@ aside {
     border-bottom: ;
     background-color: violet;
 }
+
+/*------------------------------------FOOTER---------------------------------------*/
+
+/*FOOTER*/
 
 footer {
     background-color: gray;
