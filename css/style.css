@@ -26,7 +26,7 @@ h2 {
 font-size: 30px;
 }
 div , nav , section {
-    border: 0.5px dashed black;
+    border: 0.px dashed black;
 }
 
 /*------------------------------------UTILITIES------------------------------------*/
@@ -59,6 +59,10 @@ div , nav , section {
 .bck-clr {
     background-color: #0061FF ;
     color: white;
+}
+.btn-clr {
+    color: black;
+    border: 1px solid black;
 }
 /*BACKGROUND-COLOR*/
 .partnerGreen {
@@ -164,7 +168,7 @@ div i {
 
 /*BUSINESS-CHECKBOX*/
 .containerMain {
-    max-width: 1200px;
+    max-width: 980px;
     margin: 0 auto ;
 }
 .titlesMain.flex {
@@ -199,20 +203,21 @@ div i {
 .titleCard {
     width: 100%;
     height: 50px;
-    background-color: darkred;
     text-align: center;
     line-height: 50px;
+    border-bottom: 1px solid gray;
 }
 .sectCard {
     height: 1000px;
+    border: 1px solid gray;
 }
 .sectCard i {
     font-size: 17px;
 }
 .contentCard {
-   max-width: 280px;
+   max-width: 300px;
    margin: 20px auto;
-   height: 900px;
+   padding: 10px;
 }
 .contentCard h3 {
     margin-bottom: 15px;
@@ -244,7 +249,6 @@ hr {
     margin-top: 30px;
 }
 
-
 .listUser {
     list-style-image: url('../img/user-solid\ \(2\).svg') ;
 }
@@ -263,42 +267,60 @@ hr {
 .listCheck {
     list-style-image: url('../img/check-solid\ \(1\).svg');
 }
-
-
-
 /*ENTERPRISE*/
 .teamEnterprise {
-    height: 200px;
+    height: 250px;
+    border: 1px solid gray;
 }
 .titleEnterprise {
-height: 50px ;
-background-color: yellow;
+    height: 50px ;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-bottom: 1px solid gray;
+}
+.titleEnterprise i {
+    font-size: 17px;
 }
 .rowEnterprise.flex {
-    height: 150px;
+    height: 200px;
 }
 .colEnterpriseSX {
-    width: 70%;
+    width: 65%;
     height: 100%;
-    background-color: green;
+    padding: 20px;
+}
+.colEnterpriseSX h3{
+    margin-bottom: 10px;
+}
+.colEnterpriseSX h4{
+    margin-bottom: 50px;
 }
 .colEnterpriseDX {
-    width: 30%;
+    width: 35%;
     height: 100%;
-    background-color: pink;
+    padding: 20px;
 }
 /*DROPBOX BUSINESS*/
 .contactDropbox {
-    height: 400px;
+    height: 500px;
     margin-top: 130px;
 }
 .imgContactDropbox {
     width: 60%;
-    background-color: chocolate;
+    height: 100%;
+}
+.imgContactDropbox img {
+    width: 100%;
+    height: 100%;
 }
 .textContactDropbox {
     width: 40%;
-    background-color: beige;
+    padding: 40px;
+}
+.textContactDropbox h3,p {
+    margin-bottom: 40px;
 }
 /*MULTITASKING*/
 .titleMultitaskingDrop {
