@@ -13,13 +13,14 @@
 /*GENERAL*/ 
 body {
     font-family: 'Open Sans', sans-serif;
-    background-color: black;
 }
 ul , p {
-    font-size: 20px;
+    font-size: 17px;
 }
 h1 {
-
+font-weight: 900;
+font-size: 80px;
+margin-bottom: 40px;
 }
 h2 {
 
@@ -29,24 +30,27 @@ h3 {
 }
 
 div , nav , section {
-    border: 2px dashed black;
+    border: 0.5px dashed black;
 }
 
 /*------------------------------------UTILITIES------------------------------------*/
 
-/*BUTTON*/
+/*CENTER*/
+.flex {
+    display: flex;
+}
+.right-flex {
+    justify-content: flex-end;
+}
+/*BUTTON-A*/
 .btnType {
-
+padding: 5px 15px;
+font-size: 19px;
+text-decoration: none;
 }
 .bck-clr {
     background-color: #0061FF ;
     color: white;
-}
-.pdn-lt {
-
-}
-.flex {
-    display: flex;
 }
 /*BACKGROUND-COLOR*/
 .partnerGreen {
@@ -83,41 +87,63 @@ div , nav , section {
 .containerNav {
     display: flex;
     justify-content: space-between;
-    height: 80px;
-    background-color: gray;
+    height: 100px;
 }
-.navbar {
-width: 20%;
-background-color: red;
+.navbar.flex {
+    min-width: 30%;
+    align-items: center;
+    padding: 40px 20px;
 }
+.navbar a img {
+    width: 130px;   
+}
+.navbar ul {
+    list-style-type: none;
+    font-size: 19px;
+    gap: 20px;
+}
+nav li > a {
+text-decoration: none;
+color: black;
+}
+
 
 /*------------------------------------HEADER---------------------------------------*/
 
-/*HEADER*/
+/*HEADER-TEXT*/
 header {
-    background-color: black;
+    min-height: 670px;
 }
 .containerHeaderFooter {
-    height: 600px;
+    min-height: 600px;
     max-width: 1400px;
     margin: 0 auto ;
 }
 .titleHeader {
-    height: 100px;
-    background-color: yellow;
-    margin-top: 80px;
+    min-height: 100px;
+    padding-top: 40px;
 }
 .divHeader {
     height: 400px;
 }
-.headerText {
-background-color: aquamarine;
+.headerText.flex {
 width: 30%;
+flex-direction: column;
+justify-content: space-between;
 }
-.headerImg {
-background-color: chartreuse;
+div i {
+    font-size: 50px;
+    margin: 10px 0px;
+    color: black;
+}
+/*HEADER-IMG*/
+.divHeaderImg {
 width: 70%;
 }
+.divHeaderImg img {
+    width: 85% ;
+}
+
 
 /*-------------------------------------MAIN----------------------------------------*/
 
