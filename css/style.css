@@ -23,7 +23,7 @@ font-size: 80px;
 margin-bottom: 40px;
 }
 h2 {
-font-size: 30px;
+font-size: 35px;
 }
 h3 {
     font-size: 25px;
@@ -66,6 +66,7 @@ div , nav , section {
 .btn-clr {
     color: black;
     border: 1px solid black;
+    background-color: white;
 }
 /*BACKGROUND-COLOR*/
 .partnerGreen {
@@ -379,7 +380,7 @@ aside {
 }
 .partner {
     margin-top: 100px;
-    height: 500px;
+    height: 650px;
 }
 /*LOGHI PARTNER*/
 .rowPartner {
@@ -392,43 +393,76 @@ aside {
     display: flex;
     flex-direction: column;
 }
+.CEN {
+    padding: 40px;
+}
+.CEN hr {
+    width: 150px;
+    border: 1px solid gray;
+    margin-bottom: 30px;
+}
+.CEN address {
+    font-style: normal;
+}
 .cardPartner {
     width: 100%;
     height: 50%;
 }
 .imgCardPartner {
     width: 50%;
+    justify-content: center;
+    align-items: center; 
+}
+.allSVG  {
+    width: 50%;
+}
+.designit {
+    width: 50%;
 }
 /*FREE-TRIAL*/
-.freeTrial {
-    height: 300px;
+.FreeTrial {
+    height: 350px;
 }
-.titleFreeTrial {
-    width: 55%;
+.containerFreeTrial.flex {
+    max-width: 980px;
+    margin: 0 auto;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
 }
-.buttonFreeTrial {
-    width: 45%;
+.titleTrial {
+    width: 420px;
+    color: #61082B;
 }
 /*REQUESTS*/
 .containerRequests {
-    max-width: 1200px;
+    max-width: 980px;
     margin: 120px auto ;
     height: 500px;
 }
 .titleRequests {
-    min-height: 200px;
-    background-color: darkred;
+    min-height: 100px;
+    border-bottom: 1px solid gray;
 }
 .divRequests {
     height: 100px;
-    background-color: violet;
+    line-height: 100px;
+    border-bottom: 1px solid gray;
+}
+.divRequests i{
+    font-size: 12px;
+    margin-left: 270px;
 }
 
 /*------------------------------------FOOTER---------------------------------------*/
 
 /*FOOTER*/
 footer {
-    background-color: gray;
+    background-color: black;
+    color: white;
+}
+footer ul {
+    list-style: none;
 }
 .containerFooter {
     height: 600px;
@@ -439,6 +473,7 @@ footer {
     width: 100%;
     height: 100%;
     gap: 40px;
+    padding-top: 80px ;
 }
 .colFooter {
     height: 100%;
@@ -450,6 +485,29 @@ footer {
 .cardTopFooter {
     height: 80%;
 }
+.cardTopFooter h3 {
+    margin-bottom: 30px;
+}
+.cardTopFooter a {
+    text-decoration: none;
+    color: white;
+}
+.cardTopFooter > ul {
+  margin-bottom: 120px ;
+}
+.cardTopFooter ul li {
+    margin-bottom: 15px;
+}
+.cardTopFooter > hr {
+    width: 150px ;
+  }
 .cardBottomFooter {
     height: 20%;
+}
+.cardBottomFooter a {
+    text-decoration: none;
+    color: gray;
+}
+.cardBottomFooter span {
+    font-size: 10px;
 }
