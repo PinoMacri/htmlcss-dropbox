@@ -1,3 +1,6 @@
+
+/*--------------------------------------RESET--------------------------------------*/
+
 /*RESET*/
 * {
     margin: 0;
@@ -5,9 +8,282 @@
     box-sizing: border-box;
 }
 
-/*---------------------------------------------------------------------------------*/
+/*-----------------------------------GENERAL---------------------------------------*/
 
 /*GENERAL*/ 
 body {
     font-family: 'Open Sans', sans-serif;
+    background-color: black;
+}
+ul , p {
+    font-size: 20px;
+}
+h1 {
+
+}
+h2 {
+
+}
+h3 {
+
+}
+
+div , nav , section {
+    border: 2px dashed black;
+}
+
+/*------------------------------------UTILITIES------------------------------------*/
+
+/*UTILITIES*/
+
+/*BUTTON*/
+.btnType {
+
+}
+.bck-clr {
+    background-color: #0061FF ;
+    color: white;
+}
+.pdn-lt {
+
+}
+.flex {
+    display: flex;
+}
+/*BACKGROUND-COLOR*/
+.partnerGreen {
+    background-color: #A2D39B ;
+}
+.partnerDarkRed {
+    background-color: #61082B;
+}
+.partnerBlue {
+    background-color: #0093CE ;
+}
+.partnerRed {
+    background-color: #FF1C1C;
+}
+.partnerLightRed {
+    background-color: #D5001F;
+}
+.partnerDarkBlue {
+    background-color: #0D2481;
+}
+.partnerYellow {
+    background-color: #FFD830 ;
+}
+.partnerGray {
+    background-color: #F5F5F5;
+}
+.LightBlue {
+    background-color: #B4D0E7 ;
+}
+/*------------------------------------NAVBAR---------------------------------------*/
+
+/*NAVBAR*/
+.containerNav {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    background-color: gray;
+}
+.navbar {
+width: 20%;
+background-color: red;
+}
+
+/*------------------------------------HEADER---------------------------------------*/
+
+/*HEADER*/
+header {
+    background-color: black;
+}
+.containerHeaderFooter {
+    height: 600px;
+    max-width: 1400px;
+    margin: 0 auto ;
+}
+.titleHeader {
+    height: 100px;
+    background-color: yellow;
+    margin-top: 80px;
+}
+.divHeader {
+    height: 400px;
+}
+.headerText {
+background-color: aquamarine;
+width: 30%;
+}
+.headerImg {
+background-color: chartreuse;
+width: 70%;
+}
+
+/*-------------------------------------MAIN----------------------------------------*/
+
+/*MAIN*/
+
+main {
+    background-color: 
+}
+.containerMain {
+    max-width: 1200px;
+    margin: 0 auto ;
+}
+.titlesMain {
+    height: 100px ;
+    margin-top: 100px;
+    background-color: yellow;
+}
+.cardMainContainer.flex {
+    height: 700px;
+    gap: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.cardMainContainer .sectCard {
+    width: calc(100% / 3);
+    background-color: red;
+}
+.titleCard {
+    width: 100%;
+    height: 50px;
+    background-color: darkred;
+}
+.teamEnterprise {
+    height: 200px;
+}
+.titleEnterprise {
+height: 50px ;
+background-color: yellow;
+}
+.rowEnterprise.flex {
+    height: 150px;
+}
+.colEnterpriseSX {
+    width: 70%;
+    height: 100%;
+    background-color: green;
+}
+.colEnterpriseDX {
+    width: 30%;
+    height: 100%;
+    background-color: pink;
+}
+.contactDropbox {
+    height: 400px;
+    margin-top: 130px;
+}
+.imgContactDropbox {
+    width: 60%;
+    background-color: chocolate;
+}
+.textContactDropbox {
+    width: 40%;
+    background-color: beige;
+}
+.titleMultitaskingDrop {
+    height: 90px;
+    margin-top: 150px;
+    background-color: yellow;
+}
+.rowMultitasking {
+    height: 600px;
+    gap: 40px;
+    margin: 40px 0px;
+}
+.colMultitasking {
+    width: calc(100% / 3);
+   
+}
+.cardMultitasking {
+    flex-direction: column;
+    height: 100%;
+}
+.imgCardMultitasking,.textCardMultitasking {
+    height: 50%;
+    background-color: violet;
+}
+.searchDrop {
+    height: 200px;
+    margin-top: 100px;
+    background-color: aqua;
+}
+
+aside {
+    height: 1500px;
+    margin-bottom: 80px;
+}
+.partner {
+    margin-top: 100px;
+    height: 500px;
+}
+.rowPartner {
+    height: 100%;
+}
+.colPartner {
+    width: calc(100% / 3);
+}
+.LAT {
+    display: flex;
+    flex-direction: column;
+}
+.cardPartner {
+    width: 100%;
+    height: 50%;
+}
+.imgCardPartner {
+    width: 50%;
+}
+.freeTrial {
+    height: 300px;
+}
+.titleFreeTrial {
+    width: 55%;
+}
+.buttonFreeTrial {
+    width: 45%;
+}
+
+.containerRequests {
+    max-width: 1200px;
+    margin: 120px auto ;
+    height: 500px;
+}
+.titleRequests {
+    min-height: 200px;
+    background-color: darkred;
+}
+.divRequests {
+    height: 100px;
+    border-bottom: ;
+    background-color: violet;
+}
+
+footer {
+    background-color: gray;
+}
+.containerFooter {
+    height: 600px;
+    max-width: 1400px;
+    margin: 0 auto ;
+}
+.rowFooter {
+    width: 100%;
+    height: 100%;
+    gap: 40px;
+}
+.colFooter {
+    height: 100%;
+    width: calc(100% / 5);
+}
+.colFooter.flex {
+    flex-direction: column;
+}
+.cardTopFooter {
+    height: 80%;
+}
+.cardBottomFooter {
+    height: 20%;
 }
