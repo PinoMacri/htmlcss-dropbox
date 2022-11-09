@@ -159,6 +159,9 @@ div i {
     margin: 10px 0px;
     color: black;
 }
+.ann {
+    margin-top: 40px;
+}
 /*HEADER-IMG*/
 .divHeaderImg {
     width: 72%;
@@ -186,13 +189,16 @@ div i {
     height: 25px;
     border-radius: 50%;
 }
-.checkBoxMain {
+.checkBoxMain.flex {
     gap: 0px;
     align-items: flex-end;
 }
 .billing {
     margin-right: 30px;
     margin-left: 5px ;
+}
+.billing p {
+    margin: 0;
 }
 /*BUSINESS-CARD*/
 .cardMainContainer.flex {
@@ -304,8 +310,12 @@ hr {
 .colEnterpriseDX {
     width: 35%;
     height: 100%;
-    padding: 20px;
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: right;
 }
+
 /*DROPBOX BUSINESS*/
 .contactDropbox {
     height: 500px;
@@ -423,16 +433,21 @@ aside {
 .FreeTrial {
     height: 350px;
 }
-.containerFreeTrial.flex {
+.containerFreeTrial{
     max-width: 980px;
     margin: 0 auto;
     height: 100%;
-    align-items: center;
+    align-items: baseline;
     justify-content: space-between;
+    padding: 131px 0px;
 }
 .titleTrial {
     width: 420px;
     color: #61082B;
+    height: 94px;
+}
+.buttonTrial {
+    height: 94px;
 }
 /*REQUESTS*/
 .containerRequests {
