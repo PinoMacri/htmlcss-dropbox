@@ -420,10 +420,24 @@ aside {
     width: 100%;
     height: 50%;
 }
+.background-designit.flex {
+    height: 80%;
+    align-items: center;
+}
 .imgCardPartner {
-    width: 50%;
+   width: 50%;
     justify-content: center;
     align-items: center; 
+}
+.designitDiv {
+    background-color: #D1E9CD;
+    width: 50%;
+    padding: 15px;
+}
+.imgCardPartner-designit.flex {
+    height: 100%;
+    justify-content: center;
+    align-items: center;
 }
 .allSVG  {
     width: 50%;
