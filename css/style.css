@@ -148,7 +148,6 @@ header {
 }
 .divHeader.flex {
     height: 400px;
-    gap: ;
 }
 .headerText.flex {
     width: 35%;
