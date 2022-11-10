@@ -493,7 +493,10 @@ border-bottom: 1px solid gray;
 }
 .divRequests i{
     font-size: 20px;
-    margin-left: 270px
+    margin-left: 270px;
+}
+.fa-sharp.fa-solid.fa-chevron-up {
+    display: none;
 }
 .divRequests h4{
    margin-top: 40px;
@@ -508,6 +511,12 @@ border-bottom: 1px solid gray;
 .divRequests:hover  {
     height: 180px;
 }
+.divRequests:hover .fa-sharp.fa-solid.fa-chevron-down  {
+   display: none;
+}
+.divRequests:hover .fa-sharp.fa-solid.fa-chevron-up  {
+    display: inline;
+ }
 
 
 /*------------------------------------FOOTER---------------------------------------*/
