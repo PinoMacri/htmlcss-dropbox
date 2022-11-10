@@ -37,6 +37,9 @@ h3 {
 .right-flex {
     justify-content: flex-end;
 }
+.cursor {
+    cursor: pointer;
+}
 /*BORDER-CIRCLE*/
 .borderBlue {
     border: 6px solid #0061FF
@@ -71,7 +74,7 @@ h3 {
 }
 /*BACKGROUND-COLOR*/
 .partnerGreen {
-    background-color: #A2D39B ;
+    background-color: #A2D39B;
 }
 .partnerDarkRed {
     background-color: #61082B;
@@ -267,7 +270,6 @@ hr {
 .listLI {
     margin-top: 30px;
 }
-
 .listUser {
     list-style-image: url('../img/user-solid\ \(2\).svg') ;
 }
@@ -395,7 +397,6 @@ hr {
 /*PARTNER*/
 aside {
     min-height: 1700px;
-    
 }
 .partner {
     margin-top: 100px;
@@ -427,31 +428,41 @@ aside {
     width: 100%;
     height: 50%;
 }
-.background-designit.flex {
-    height: 80%;
-    align-items: center;
-}
-.imgCardPartner {
-   width: 50%;
-    justify-content: center;
-    align-items: center; 
-}
-.designitDiv {
-    background-color: #D1E9CD;
-    width: 50%;
-    padding: 15px;
-}
-.imgCardPartner-designit.flex {
+.imgCardPartner.flex {
     height: 100%;
     justify-content: center;
     align-items: center;
+    width: 50%;
+    padding: 15px;
 }
 .allSVG  {
-    width: 50%;
+    width: 70%;
 }
-.designit {
-    width: 50%;
+/*LOGHI PARTNER HOVER*/
+.designitCompany:hover {
+   border: 15px solid #D1E9CD ;
 }
+.arizona:hover {
+    border: 15px solid #8b6373 ;
+ }
+.florida:hover {
+    border: 15px solid #68b2cf ;
+ }
+ .topps:hover {
+    border: 15px solid #fa7676 ;
+ }
+.bicycle:hover {
+    border: 15px solid #d3707f ;
+ }
+.hearst:hover {
+    border: 15px solid #d6dee6 ;
+ }
+.lonely:hover {
+    border: 15px solid #324281;
+ }
+.clear:hover {
+    border: 15px solid #ffe884 ;
+ }
 /*FREE-TRIAL*/
 .FreeTrial {
     height: 350px;
